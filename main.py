@@ -10,12 +10,12 @@ d = h.strftime("%D, %H:%M:%S")
 client = discord.Client()
 @client.event
 async def on_connect():
-    print('\u001b[32m' + t + ' | Connected:\u001b[34m ' + client.user.name)
+    print('\u001b[32m' + d + ' | Connected:\u001b[34m ' + client.user.name)
 @client.event
 async def on_message(msg):
     if msg.author == client.user:
-        n = [4, 5, 6, 7, 8] # maybe ill open other pull req changing this for get a random number from 5 to 8, not hard i think ( i mean like randommath)
+        n = [4, 5, 6, 7, 8] 
         time.sleep(random.choice(n))
         await msg.delete()
-        print('\u001b[32m' + t + ' | Messeage Deleted:\u001b[34m ' + msg.content)
+        print('\u001b[32m' + d + ' | Messeage Deleted:\u001b[34m ' + msg.content)
 client.run(t, bot=False)
