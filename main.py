@@ -14,7 +14,7 @@ async def on_connect():
 @client.event
 async def on_message(msg):
     if msg.author == client.user:
-        n = [5, 6, 7, 8, 9, 10] # maybe ill open other pull req changing this for get a random number from 5 to 8, not hard i think ( i mean like randommath)
+        n = [4, 5, 6, 7, 8] # maybe ill open other pull req changing this for get a random number from 5 to 8, not hard i think ( i mean like randommath)
         time.sleep(random.choice(n))
         await msg.delete()
         print('\u001b[32m' + t + ' | Messeage Deleted:\u001b[34m ' + msg.content)
