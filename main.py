@@ -1,9 +1,4 @@
-import discord
-import json
-import datetime
-import time
-import os
-import random
+import discord, json, random, json, datetime, time, os
 os.system('cls')
 print('''\u001b[36m
  ██▓███   ██▀███   █    ██  ███▄    █ ▓█████ 
