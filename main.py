@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import discord, json, random, json, datetime, time, os
+import discord, json, random, datetime, time, os
 os.system("cls" if os.name == "nt" else "clear")
 print('██▓███   ██▀███   █    ██  ███▄    █ ▓█████\n▓██░  ██▒▓██ ▒ ██▒ ██  ▓██▒ ██ ▀█   █ ▓█   ▀\n▓██░ ██▓▒▓██ ░▄█ ▒▓██  ▒██░▓██  ▀█ ██▒▒███  \n▒██▄█▓▒ ▒▒██▀▀█▄  ▓▓█  ░██░▓██▒  ▐▌██▒▒▓█  ▄\n▒██▒ ░  ░░██▓ ▒██▒▒▒█████▓ ▒██░   ▓██░░▒████▒\n▒▓▒░ ░  ░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░\n░▒ ░       ░▒ ░ ▒░░░▒░ ░ ░ ░ ░░   ░ ▒░ ░ ░  ░\n░░         ░░   ░  ░░░ ░ ░    ░   ░ ░    ░   \n            ░        ░              ░    ░  ░')
 with open ("config.json") as l:
