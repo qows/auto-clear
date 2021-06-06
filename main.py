@@ -4,9 +4,9 @@ os.system("cls" if os.name == "nt" else "clear")
 print('██▓███   ██▀███   █    ██  ███▄    █ ▓█████\n▓██░  ██▒▓██ ▒ ██▒ ██  ▓██▒ ██ ▀█   █ ▓█   ▀\n▓██░ ██▓▒▓██ ░▄█ ▒▓██  ▒██░▓██  ▀█ ██▒▒███  \n▒██▄█▓▒ ▒▒██▀▀█▄  ▓▓█  ░██░▓██▒  ▐▌██▒▒▓█  ▄\n▒██▒ ░  ░░██▓ ▒██▒▒▒█████▓ ▒██░   ▓██░░▒████▒\n▒▓▒░ ░  ░░ ▒▓ ░▒▓░░▒▓▒ ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░\n░▒ ░       ░▒ ░ ▒░░░▒░ ░ ░ ░ ░░   ░ ▒░ ░ ░  ░\n░░         ░░   ░  ░░░ ░ ░    ░   ░ ░    ░   \n            ░        ░              ░    ░  ░')
 with open ("config.json") as l:
     j = json.load(l)
-j = t.get("token")
+t = j.get("token")
 h = datetime.datetime.now()
-d = date.strftime("%D, %H:%M:%S")
+d = h.strftime("%D, %H:%M:%S")
 client = discord.Client()
 @client.event
 async def on_connect():
