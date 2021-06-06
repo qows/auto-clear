@@ -9,7 +9,7 @@
 - Log the deleted messages
 - Random Delay
 - Undetectable 
-- 
+
 ## Installation
 https://github.com/2uj/auto-clear/wiki/Installation
 
