@@ -1,6 +1,6 @@
 <h1 align="center">Auto Clear</h1>
 <p align="center">
-   [![Views](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/2uj/auto-clear)
+   [![HitCount](http://hits.dwyl.com/2uj/auto-clear.svg)](http://hits.dwyl.com/2uj/auto-clear)
 </p>
 <p align="center">
    A discord selfbot to automatically delete messages you send.
