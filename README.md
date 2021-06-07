@@ -1,5 +1,5 @@
 <h1 align="center">Auto Clear</h1>
-[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/2uj/auto-clear&title=Views)](https://github.com/2uj/auto-clear)
+[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/2uj/auto-clear&title=Views)](https://github.com/2uj/auto-clear)  
 <p align="center">
    A discord selfbot to automatically delete messages you send.
    <img src="http://beta.kxro.wtf/r/kpl0rl1am9a.png" />
