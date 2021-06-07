@@ -1,7 +1,6 @@
 <h1 align="center">Auto Clear</h1>
 <p align="center">
-   <a href="#"><img src="https://www.codefactor.io/repository/github/2uj/auto-clear/badge" /></a>
-   
+   [![Views](http://hits.dwyl.com/dwyl/start-here.svg)](http://hits.dwyl.com/2uj/auto-clear)
 </p>
 <p align="center">
    A discord selfbot to automatically delete messages you send.
