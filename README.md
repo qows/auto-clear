@@ -1,5 +1,8 @@
 <h1 align="center">Auto Clear</h1>
-[![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Vedza/NitroSniperGo&title=Views)](https://github.com/Vedza/NitroSniperGo)  
+<p align="center">
+   <a href="#"><img src="https://www.codefactor.io/repository/github/2uj/auto-clear/badge" /></a>
+   
+</p>
 <p align="center">
    A discord selfbot to automatically delete messages you send.
    <img src="http://beta.kxro.wtf/r/kpl0rl1am9a.png" />
